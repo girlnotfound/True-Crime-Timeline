@@ -3,7 +3,8 @@ import HomePage from "./pages/Homepage.jsx";
 import TimelinePage from "./pages/TimelinePage.jsx";
 import CaseOverviewPage from "./pages/CaseOverviewPage.jsx";
 import EvidenceboardPage from "./pages/EvidenceboardPage.jsx";
-import Navigation from "./shared/Navigation.jsx";
+import Navigation from "./components/shared/Navigation.jsx";
+import "./styles/style.css";
 
 function App() {
   return (

@@ -1,0 +1,81 @@
+:root {
+  --color-tan: #cabfab;
+  --color-light-tan: #dfd8c8;
+  --color-dark-gray: #41444b;
+  --color-gray: #52575d;
+}
+
+/* navigation styling */
+.navigation {
+  background-color: var(--color-dark-gray);
+  padding: 1rem;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  color: var(--color-light-tan);
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: var(--color-tan);
+  transition: color 0.3s ease;
+}
+
+/* page-specific styles */
+.home-page {
+  background-color: var(--color-light-tan);
+  text-align: center;
+  padding: 2rem;
+  min-height: 90vh;
+}
+
+.timeline-page {
+  background-color: var(--color-tan);
+  padding: 2rem;
+  min-height: 90vh;
+}
+
+.case-overview-page {
+  background-color: var(--color-gray);
+  padding: 2rem;
+  min-height: 90vh;
+  color: var(--color-light-tan);
+}
+
+.evidence-page {
+  background-color: var(--color-dark-gray);
+  padding: 2rem;
+  min-height: 90vh;
+  color: var(--color-light-tan);
+}
+
+/* text styling */
+h1 {
+  color: var(--color-dark-gray);
+  margin-bottom: 1rem;
+}
+
+/* override h1 color for darker backgrounds */
+.case-overview-page h1,
+.evidence-page h1 {
+  color: var(--color-light-tan);
+}
+
+p {
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+/* override p color for darker backgrounds */
+.case-overview-page p,
+.evidence-page p {
+  color: var(--color-light-tan);
+}
